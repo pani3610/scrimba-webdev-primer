@@ -1,0 +1,28 @@
+h1
+{
+    text-transform: uppercase;
+    border-bottom: double;
+    text-align: center;
+}
+
+.ad
+{
+    display: inline-block;
+    border-style: solid;
+    width: 100px;
+    height: 120px;
+    padding: 5px;
+}
+
+.ad-heading
+{
+    display:block;
+    font-size: 0.7em;
+}
+
+.ad-body
+{
+    font-size: 0.5em;
+    display:block;
+    line-height:80%;
+}
