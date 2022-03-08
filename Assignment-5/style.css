@@ -1,0 +1,42 @@
+.box
+{
+    border:10px solid white;
+    background-color: black;
+    height: 100px;
+    max-width: 500px;
+    display: block;
+    margin: none;
+}
+
+#skin
+{
+    background-color: #F5C6D6;
+}
+
+#pink
+{
+    width:107px;
+    background-color: #EE2E84;
+    display: inline-block;
+}
+
+#aqua
+{
+    background-color: #85CFD8;
+    width: 239px;
+    display: inline-block;
+}
+
+#green
+{
+    background-color: #8DC63F;
+    width: 360px;
+    display: inline-block;
+}
+
+#orange
+{
+    background-color: #E76E34;
+    width: 120px;
+    display: inline-block;
+}
