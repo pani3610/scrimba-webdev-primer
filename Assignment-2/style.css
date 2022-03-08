@@ -1,0 +1,38 @@
+.header
+{
+    font-family: Georgia;
+    text-align: center;
+}
+.header > h1
+{
+    color:darkgreen
+}
+
+p
+{
+    line-height: 25px;
+}
+
+a
+{
+    text-decoration: none;
+
+}
+
+.upper
+{
+    text-transform: uppercase;
+}
+
+a:hover
+{
+    text-decoration: underline;
+
+}
+
+.cia-pic
+{
+    float:left;
+    width: 400px;
+    padding: 25px;
+}
