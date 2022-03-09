@@ -1,13 +1,23 @@
-.box
+:root
 {
-    border:10px solid white;
-    background-color: black;
-    height: 100px;
-    max-width: 500px;
-    display: block;
-    margin: none;
+    --width: 500px;
+    --border: 5px;
 }
 
+.box
+{
+    border:var(--border) solid white;
+    background-color: black;
+    height: 100px;
+    width: var(--width);
+    display: inline-block;
+    margin: 0px;
+}
+
+.line
+{
+    display: block;
+}
 #skin
 {
     background-color: #F5C6D6;
@@ -15,28 +25,26 @@
 
 #pink
 {
-    width:107px;
+    max-width:calc(((var(--width) + 2*var(--border) - 3*(4px))/4) - 2*var(--border));
+    /* Looks like there is a gap of 4 pix by default between two divs */
     background-color: #EE2E84;
-    display: inline-block;
+    
 }
 
 #aqua
 {
     background-color: #85CFD8;
-    width: 239px;
-    display: inline-block;
+    width:calc(((var(--width) + 2*var(--border) - 1*(4px))/2) - 2*var(--border));
 }
 
 #green
 {
     background-color: #8DC63F;
     width: 360px;
-    display: inline-block;
 }
 
 #orange
 {
     background-color: #E76E34;
     width: 120px;
-    display: inline-block;
 }
