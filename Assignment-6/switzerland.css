@@ -1,0 +1,68 @@
+:root{
+        --flag-height: 300px;
+        --flag-width: 300px;
+    }
+
+html, body
+{
+        margin: 0;
+        padding: 0;
+    }
+
+.flag {
+    height: var(--flag-height);
+    width: var(--flag-width);
+    display: block;
+    display: absolute;
+    /* border: 2px solid black; */
+  }
+
+.red-bg
+{
+    height: var(--flag-height);
+    width: var(--flag-width); 
+    background-color: #FF0002;
+    display:inline-block;
+    /* border: 1px solid black; */
+}
+
+.white-cross
+{
+    height: calc(var(--flag-height)*3/4);
+    width:  calc(var(--flag-width)*3/4);
+    background-color: white;
+    position: absolute;
+    left: calc(var(--flag-width)/8); /*why is this not following normal pixel calculation? SOLVED : By default, chrome and other browsers have a padding and margin around the webpage. */
+    top: calc(var(--flag-width)/8);
+
+}
+
+.red-patch
+{
+    background-color: red;
+    position: absolute;
+    width:calc(var(--flag-width)*3/10);
+    height:calc(var(--flag-width)*3/10);
+    display: inline-block;
+}
+
+#I
+{
+    right:0px;
+    top:0px;
+}
+#II
+{
+    left:0px;
+    top:0px;
+}
+#III
+{
+    left:0px;
+    bottom:0px;
+}
+#IV
+{
+    right:0px;
+    bottom:0px;
+}

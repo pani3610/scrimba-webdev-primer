@@ -8,13 +8,13 @@
 .flag {
     height: var(--flag-height);
     width: var(--flag-width);
-    display: inline-block;
+    display: block;
     border: 1px solid black;
   }
 
 .verticalstrip
 {
-    height: var(--flag-height);
+    height: var(--flag-height); /*Why do we have to declare this? Why isn't this inherited from the parent?*/
     /* height: 200px; */
 
     display:inline-block;
