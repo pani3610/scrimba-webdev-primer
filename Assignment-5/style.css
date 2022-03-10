@@ -26,7 +26,7 @@
 #pink
 {
     max-width:calc(((var(--width) + 2*var(--border) - 3*(4px))/4) - 2*var(--border));
-    /* Looks like there is a gap of 4 pix by default between two divs */
+    /* Looks like there is a gap of 4 pix by default between two divs . SOLUTION FOUND :https://ourcodeworld.com/articles/read/658/removing-whitespaces-between-inline-block-elements-with-css*/
     background-color: #EE2E84;
     
 }
