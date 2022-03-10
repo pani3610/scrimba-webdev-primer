@@ -10,6 +10,7 @@ html,body{
     justify-content: space-evenly;
     background-color: yellow;
     width:100vw;
+    z-index: 2;
 }
 
 .menu-items
