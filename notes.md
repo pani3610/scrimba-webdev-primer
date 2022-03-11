@@ -1,7 +1,7 @@
 ## Notes for Scrimba
 08-03-22
 
-#### New terminologies
+#### New terminologies (CSS)
 + Block positioning and inline positioning.
     + block postioning : tags like h1 span across complete width of the page.
     + Span tag for inline positioning
@@ -47,7 +47,7 @@
     ```css
         float : left;
     ```
-    But this raises a warning as faking an element float makes its display property as block.
+    But this raises a warning as making an element float makes its display property as block.
     + arrange the tags with no space in the html file.
     Instead of this
     ```html
@@ -77,3 +77,38 @@ html, body {
 ```
 + While positioning tags in webpage, the sequence of the tags in the html has an impact. First see the default positions of all the elements and then offset.
 + Set the parent to relative for its child to have absolute values which relates the offset with parent. __The coordinates of an absolute positioned element are relative to its parent if the parent also has a non-static position.__
++ Flex-box offer tons of customization options.[more](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+#### New terminologies (JS)
++ String, Number, Boolean, Array, Object are data types in JS.
++ Use // for comments.
++ No out of index error for arrays. Output will be null.
++ console.log(1/0) gives _null_.
++ == vs ===
+    + == comparison can be between different datatypes. Empty string is equal to 0, 1=='1' will return true.
+    + === comparision is only between values of same datatype.
+    + != and !== compliments these.
+
++ falsey statements: Following elements will evaluate to false.
+    + 0
+    + ""
+    + null
+    + undefined
+    + false
+    + NaN
++ 
+```javascript
+'s'>12
+```
+    and
+
+```javascript
+'s'<12
+```
+    both will return false.
+
++ Functions are first-class citizens. can be stored in variable like any other data-type.
++ Function parameter types are not defined in JavaScript.
++ In JavaScript, all function arguments are always passed by value. It means that JavaScript copies the values of the variables into the function arguments. Any changes that you make to the arguments inside the function do not reflect the passing variables outside of the function.
++ In JavaScript, object references are values.Because of this, objects will behave like they are passed by reference. If a function changes an object property, it changes the original value. Changes to object properties are visible (reflected) outside the function.
+
